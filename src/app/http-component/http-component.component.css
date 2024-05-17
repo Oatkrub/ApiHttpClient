@@ -1,0 +1,17 @@
+.dashboard {
+    display: flex;
+  }
+  
+  .selector {
+    flex: 1;
+  }
+  
+  .data-display {
+    flex: 3;
+    padding: 10px;
+  }
+  
+  .no-selection {
+    flex: 3;
+    padding: 10px;
+  }

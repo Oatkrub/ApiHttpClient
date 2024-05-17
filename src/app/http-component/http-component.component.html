@@ -1,0 +1,27 @@
+<!-- src/app/http-component/http-component.component.html -->
+<div class="dashboard">
+    <div class="selector">
+      <app-restaurant-selector 
+        [restaurants]="restaurants" 
+        (restaurantSelected)="onRestaurantSelected($event)">
+      </app-restaurant-selector>
+    </div>
+    <div class="data-display" *ngIf="selectedRestaurant">
+      <h2>{{ selectedRestaurant.title }}</h2>
+      <img [src]="selectedRestaurant.image" alt="{{ selectedRestaurant.title }}" width="200">
+      <p>Minimum Charge: {{ selectedRestaurant.minCharge }}</p>
+      <p>Rating: {{ selectedRestaurant.rating }}</p>
+      <p>Type: {{ selectedRestaurant.type.join(', ') }}</p>
+      <ng-container *ngIf="menu; else noMenu">
+        <h3>Menu</h3>
+        <pre>{{ menu | json }}</pre>
+      </ng-container>
+      <ng-template #noMenu>
+        <p>Loading menu...</p>
+      </ng-template>
+    </div>
+    <div *ngIf="!selectedRestaurant" class="no-selection">
+      <p>Please select a restaurant to see the details.</p>
+    </div>
+  </div>
+  

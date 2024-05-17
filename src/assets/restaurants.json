@@ -1,0 +1,30 @@
+[{
+    "id":"res1",
+    "title":"Food Circles",
+    "image":"http://res.cloudinary.com/simpleview/image/upload/v1438123960/clients/grandrapids/file_bcf11a47-7451-464f-8c4d-c9d3e85e9146.png",
+    "minCharge":"5.00 LE",
+    "rating":"2",
+    "titlMC":"foodCirclesMenuCat",
+    "url_menucat":"https://gist.github.com/omar94hamza/95723a43bb97f21567c99948c31dc7aa/raw/d09556d7f9591c9ac36d499a48c82d0012589a03/foodcirclesmenucat.json",
+    "type":["Chicken", "Meat"]
+},
+{
+    "id":"res2",
+    "title":"KFC", 
+    "image":"http://vignette1.wikia.nocookie.net/ridiculoushist/images/b/b8/KFC_logo.png",
+    "minCharge":"10.00 LE",
+    "rating":"8",
+    "titlMC":"kfc",
+    "url_menucat":"https://gist.github.com/omar94hamza/5915e318a11a40f7a70e440804431e45/raw/9dfee086fc5f6734c7306c17e5fa97e3683df2d8/kfc.json",
+    "type":["Fast Food", "Chicken", "Sandwiches"]
+},
+{
+    "id":"res3",
+    "title":"Restaurant", 
+    "image":"http://image.shutterstock.com/z/stock-vector-food-restaurant-logo-icon-264413183.jpg",
+    "minCharge":"16.00 LE",
+    "rating":"ten",
+    "titlMC":"restaurant",
+    "url_menucat":"https://gist.github.com/omar94hamza/9725b018f68150d3e50d9c33ec8a3e93/raw/728fddef7356572f9bb8e7608909b542983d8fd3/restaurant.json",
+    "type":["Pizza"]
+}]

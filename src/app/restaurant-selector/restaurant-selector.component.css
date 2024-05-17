@@ -1,0 +1,17 @@
+div {
+    padding: 10px;
+    border-right: 1px solid #ccc;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  img {
+    margin-right: 10px;
+  }
